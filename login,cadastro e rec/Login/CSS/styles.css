@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #e0e0e0;
-    background: linear-gradient(90deg, #12141d, #8f7af6);
+    color: #292929;
+    background: linear-gradient(90deg, #40E0D0, #8f7af6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,13 @@ body {
 }
 
 .form-container {
-    background-color: rgba(18, 20, 29, 0.4);
+    background-color: rgba(255, 255, 255, 0.692);
     padding: 40px;
     border-radius: 16px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
 /* --- Logo e Títulos --- */
 .logo {
     font-size: 3rem;
@@ -74,7 +73,7 @@ p {
     padding: 15px;
     border: none;
     border-radius: 8px;
-    background-color: #e0e0e0; /* Cor de fundo dos inputs */
+    background-color: #ffffff; /* Cor de fundo dos inputs */
     color: #333; /* Cor da fonte dentro do input */
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -85,7 +84,7 @@ p {
 }
 
 .input-group input::placeholder {
-    color: #888; /* Cor do texto placeholder */
+    color: #292929; /* Cor do texto placeholder */
 }
 
 /* --- Grupo de Checkbox (Termos de Serviço) --- */
@@ -146,7 +145,7 @@ p {
     font-weight: 600;
 }
 
-.login-link a:hover {
+.login-link a:hover {   
     text-decoration: underline;
 }
 
@@ -176,7 +175,7 @@ p {
 }
 
 .options-group a.forgot-password {
-    color: #e0e0e0; /* Cor igual ao texto geral */
+    color: #59dda0; /* Cor igual ao texto geral */
     text-decoration: none;
     font-size: 0.85rem;
 }
